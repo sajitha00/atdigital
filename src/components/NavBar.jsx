@@ -78,7 +78,7 @@ const Navbar = () => {
       >
         {/* Backdrop */}
         <div
-          className="absolute inset-0  bg-opacity-0"
+          className="absolute inset-0 bg-black/40 backdrop-blur-sm"
           onClick={toggleMenu}
         ></div>
 
